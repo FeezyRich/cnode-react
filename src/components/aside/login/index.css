@@ -1,0 +1,37 @@
+/*侧边栏*/
+aside .reg {
+  padding: 10px;
+  margin-bottom: 10px;
+  line-height: 2em;
+  border-radius: 0 0 3px 3px;
+  background-color: #fff;
+}
+aside .reg p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+aside .reg-wrapper p {
+  font-size: 13px;
+  line-height: 1em;
+}
+.reg-wrapper p a {
+  color: #778087;
+}
+.reg-wrapper p a:hover {
+  text-decoration: underline;
+}
+.sign-up {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 2em;
+  font-family: "微软雅黑";
+  background-color: #5bc0de;
+  transition: background-color 0.2s ease-in-out;
+}
+.reg-wrapper .sign-up:hover {
+  background-color: #2f96b4;
+}

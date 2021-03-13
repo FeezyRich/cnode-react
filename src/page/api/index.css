@@ -1,0 +1,167 @@
+article {
+  width: 90%;
+  min-height: 400px;
+  margin: 15px auto;
+}
+article section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1400px;
+  min-height: 300px;
+  margin: 0 auto;
+}
+#main{
+  width: 80%;
+  /* min-height: 300px; */
+  margin-right: 10px;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/*主体导航区域*/
+.main-nav {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 0;
+  font-family: "微软雅黑";
+  color: #80bd01;
+  background-color: #f6f6f6;
+  border-radius: 3px;
+}
+.main-nav span {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.main-nav span:hover {
+  color: #005580;
+}
+.main-nav span.active {
+  padding: 3px 4px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #80bd01;
+}
+.main-nav .main-freshmannav {
+  width: 100%;
+  font-size: 14px;
+  color: #999;
+}
+.main-nav .main-freshmannav a {
+  margin-right: 5px;
+  color: #80bd01;
+  cursor: pointer;
+}
+.main-freshmannav a:hover {
+  text-decoration: underline;
+}
+
+
+.main-freshmancontent {
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+.API-text {
+  width: calc(100% - 20px);
+  margin: 0 10px;
+}
+.API-text p {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.7em;
+}
+.API-text a.API-aspecial {
+  color: #08c;
+  font-weight: 700;
+}
+.API-text a {
+  color: #08c;
+  font-weight: normal;
+  cursor: pointer;
+}
+.API-text a:hover {
+  text-decoration: underline;
+}
+.API-text h3 {
+  margin: 30px 0 15px 0;
+  font-size: 24.5px;
+  font-weight: 700;
+  line-height: 40px;
+  border-bottom: 1px solid #eee;
+}
+.API-text h4 {
+  margin: 30px 0 15px;
+  font-size: 17.5px;
+  font-weight: 700;
+  line-height: 20px;
+  border-bottom: 1px solid #eee;
+}
+.API-text ul {
+  margin-left: 30px;
+  margin-bottom: 15px;
+  list-style-type: disc;
+  font-size: 14px;
+  color: #333;
+  line-height: 2em;
+}
+.API-text li code {
+  padding: 4px 6px;
+  border-radius: 3px;
+  color: #000;
+  font-size: 12px;
+  background-color: #fcfafa;
+}
+.API-text pre {
+  padding: 0 0 0 15px;
+  font-size: 12px;
+  line-height: 22px;
+  background-color: #f7f7f7;
+}
+.API-text span.pun {
+  color: #660;
+}
+.API-text span.pln {
+  color: #000;
+}
+.API-text span.str {
+  color: #080;
+}
+.API-text span.lit {
+  color: #066;
+}
+.API-text span.kwd {
+  color: #008;
+}
+.API-text ol {
+  /* list-style-type:a; */
+  margin: 0 0 10px 25px;
+  font-size: 14px;
+  color: #333;
+  line-height: 2em;
+}
+.prettyprint code {
+  word-break: break-all;
+  line-height: 22px;
+  tab-size: 4;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 980px) {
+  article {
+    width: calc(100% - 10px);
+    margin: 15px 5px;
+  }
+
+  #main {
+    width: 100%;
+    margin-right: 0;
+  }
+}

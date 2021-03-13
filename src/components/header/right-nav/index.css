@@ -1,0 +1,19 @@
+.nav-leftContent ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+}
+.nav-leftContent ul a {
+  padding: 10px 15px;
+  color: #ccc;
+  cursor: pointer;
+}
+.nav-leftContent ul a:hover {
+  color: #fff;
+}
+.light{
+  color: #fff;
+}

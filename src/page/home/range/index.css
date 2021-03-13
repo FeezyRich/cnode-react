@@ -1,0 +1,30 @@
+aside .range{
+  margin-bottom: 10px;
+}
+.range a {
+  color: #666;
+}
+.range a:hover {
+  color: #385f8a;
+}
+.range-inner{
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+  color: #808080;
+  font-size: 13px;
+  line-height: 2em;
+  background-color: #fff;
+}
+.range-inner span{
+  display: inline-block;
+  width: 50px;
+  margin-right: 20px;
+}
+.range-inner a{
+  color: #808080;
+ 
+}
+.range-inner a:hover{
+  text-decoration: underline;
+  color: #808080;
+}

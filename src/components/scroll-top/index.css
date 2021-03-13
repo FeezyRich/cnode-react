@@ -1,0 +1,23 @@
+#to-top {
+  width: 24px;
+  height: 80px;
+  padding: 12px 0 12px 5px;
+  background-color: #fff;
+  color: #808080;
+  border-radius: 12px 0 0 12px;
+  font-size: 14px;
+  line-height: 20px;
+  position: fixed;
+  text-align: center;
+  top: 70%;
+  right: 0;
+  cursor: pointer;
+}
+.totop-none {
+  opacity: 0;
+  transition: 0.4s;
+}
+.totop-block {
+  opacity: 1;
+  transition: 0.4s;
+}

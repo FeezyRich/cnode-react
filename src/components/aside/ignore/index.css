@@ -1,0 +1,27 @@
+.ignore {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.ignore .ignore-inner {
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+  background-color: #fff;
+}
+.ignore .ignore-inner a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #778087;
+  line-height: 2em;
+}
+.create a.lastA,
+.extend a.lastA{
+  display: block;
+  padding: 10px;
+  border-top: 1px solid #f0f0f0;
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  background: #fff;
+}

@@ -1,0 +1,146 @@
+article {
+  width: 90%;
+  min-height: 400px;
+  margin: 15px auto;
+}
+article section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1400px;
+  min-height: 300px;
+  margin: 0 auto;
+}
+#main{
+  width: 80%;
+  /* min-height: 300px; */
+  margin-right: 10px;
+  background: #fff;
+  border-radius: 3px;
+}
+/*主体导航区域*/
+.main-nav {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 0;
+  font-family: "微软雅黑";
+  color: #80bd01;
+  background-color: #f6f6f6;
+  border-radius: 3px;
+}
+.main-nav span {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.main-nav span:hover {
+  color: #005580;
+}
+.main-nav span.active {
+  padding: 3px 4px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #80bd01;
+}
+.main-nav .main-freshmannav {
+  width: 100%;
+  font-size: 14px;
+  color: #999;
+}
+.main-nav .main-freshmannav a {
+  margin-right: 5px;
+  color: #80bd01;
+  cursor: pointer;
+}
+.main-freshmannav a:hover {
+  text-decoration: underline;
+}
+
+.nav-active,
+.content-active {
+  display: block;
+}
+
+.main-freshmancontent {
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+.form-text {
+  margin-top: 40px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+  line-height: 2em;
+}
+.form-text label {
+  display: inline-block;
+  width: 42px;
+  text-align: right;
+}
+
+.form-text div {
+  margin-bottom: 20px;
+}
+.form-text input {
+  box-sizing: border-box;
+  margin-left: 30px;
+  width: 284px;
+  height: 30px;
+  padding: 4px 6px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border linear 0.2s, box-shadow linear 0.2s; /*过渡盒子边框的颜色变化和盒阴影变化，共有四个参数可以写，属性，过渡时间，运动状态（实际上是对应一个贝塞尔曲线），延迟秒数*/
+}
+.form-text input:focus {
+  border-color: rgba(
+    82,
+    168,
+    236,
+    0.8
+  ); /*聚焦时边框颜色会有一个改变，并且换了新的盒子阴影*/
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    /*盒子内阴影，剩余参数含义分别是阴影的左右移动，上下移动，模糊值， 阴影大小，阴影颜色*/
+      0 0 8px rgba(82, 168, 236, 0.6); /*第一个参数不写就是默认外阴影，盒子外阴影，移动参数能够控制哪个边显示阴影*/
+}
+.form-btn {
+  margin: 20px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+.form-btn a {
+  margin: 0 1px;
+}
+.form-btn a:first-child {
+  background-color: #08c;
+}
+.form-btn span:last-child {
+  color: #778087;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.form-btn span:last-child:hover {
+  text-decoration: underline;
+}
+.form2 label {
+  width: 60px;
+}
+
+@media (max-width: 980px) {
+  article {
+    width: calc(100% - 10px);
+    margin: 15px 5px;
+  }
+
+  #main {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+

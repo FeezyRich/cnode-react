@@ -1,0 +1,17 @@
+.download-inner{
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+  text-align: center;
+  background-color: #fff;
+}
+.download-inner img{
+    width: 200px;
+}
+.download-inner a{
+  display: block;
+  color: #778087;
+  font-size: 13px;
+}
+.download-inner a:hover{
+  text-decoration: underline;
+}

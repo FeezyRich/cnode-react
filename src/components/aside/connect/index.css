@@ -1,0 +1,15 @@
+aside .connect{
+  margin-bottom: 10px;
+}
+.connect-inner{
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+  background-color: #fff;
+}
+.connect-inner a{
+  display: inline-block;
+  width: 150px;
+}
+.connect-inner a img{
+  width: 100%;
+}

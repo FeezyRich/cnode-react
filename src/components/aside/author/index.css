@@ -1,0 +1,32 @@
+.author-message a{
+  display: inline-block;
+  font-size: 16px;
+  color: #778087;
+}
+.author-message img{
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.author-inner{
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+aside .author .author-inner{
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+  color: #333;
+  font-size: 14px;
+  line-height: 2em;
+  background-color: #fff;
+}
+.range-score{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+em{
+  font-size: 13px;
+  text-align: left
+}

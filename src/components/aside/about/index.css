@@ -1,0 +1,17 @@
+aside .about .about-inner{
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+  color: #333;
+  font-size: 14px;
+  line-height: 2em;
+  background-color: #fff;
+
+}
+.about-inner p{
+  margin-bottom: 10px;
+}
+.about-inner ul{
+  list-style-type: disc;
+  margin: 0 0 10px 25px;
+  font-size: 13px;
+}
