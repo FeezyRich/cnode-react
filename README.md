@@ -9,3 +9,5 @@ React / Mobx
 启动项目：
 	1.npm i
 	2.npm start
+
+注：该项目正在持续优化中
